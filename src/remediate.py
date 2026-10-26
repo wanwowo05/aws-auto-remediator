@@ -1,5 +1,6 @@
 ﻿import os
-from datetime import datetime, timezone
+from datetime import UTC, datetime
+
 import boto3
 
 ec2 = boto3.client("ec2")
@@ -78,7 +79,7 @@ def handle_ec2_launch(detail, user):
 
 def log_and_notify(resource_id, user, violation, action):
     table = dynamodb.Table(AUDIT_TABLE)
-    timestamp = datetime.now(timezone.utc).isoformat()
+    timestamp = datetime.now(UTC).isoformat()
 
     table.put_item(
         Item={
