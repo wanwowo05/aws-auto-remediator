@@ -1,4 +1,4 @@
-﻿import boto3
+import boto3
 from rich.console import Console
 from rich.table import Table
 

@@ -1,4 +1,4 @@
-﻿import os
+import os
 from datetime import UTC, datetime
 
 import boto3

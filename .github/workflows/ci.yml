@@ -1,4 +1,4 @@
-﻿name: Cloud Auto-Remediator CI
+name: Cloud Auto-Remediator CI
 
 on:
   push:

@@ -1,4 +1,4 @@
-﻿# AWS Event-Driven Cloud Security & FinOps Auto-Remediator
+# AWS Event-Driven Cloud Security & FinOps Auto-Remediator
 
 Serverless self-healing cloud pipeline built with **Amazon EventBridge**, **AWS Lambda (Python 3.12 / Boto3)**, **Amazon DynamoDB**, **Amazon SNS**, **Terraform**, and **GitHub Actions**.
 
