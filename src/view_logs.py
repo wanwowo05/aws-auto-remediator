@@ -16,7 +16,7 @@ def main():
         title="AWS Cloud Security & FinOps Remediation Logs", show_lines=True
     )
     ui_table.add_column("Timestamp (UTC)", style="cyan")
-    ui_table.add_column("Resource ID", style="magenta", bold=True)
+    ui_table.add_column("Resource ID", style="bold magenta")
     ui_table.add_column("Violation", style="yellow")
     ui_table.add_column("Action Taken", style="green")
     ui_table.add_column("IAM User / Role", style="dim")
